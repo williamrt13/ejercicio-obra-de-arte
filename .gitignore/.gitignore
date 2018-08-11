@@ -1,0 +1,445 @@
+int anchoRe15 = 150;
+int altoRe15 = 200;
+int PosXre1 = 20;
+int PosYre15 = 210;
+
+int anchoRe24 = 140;
+int altoRe24 = 300;
+int PosXre2 = 180;
+int PosYre24 = 165;
+
+int anchoRe3 = 140;
+int altoRe3 = 350;
+int PosXre3 = 330;
+int PosYre3 = 135;
+
+int PosXre4 = 480;
+int PosXre5 = 630;
+
+int an = 3;
+int an2=2;
+
+color azul = color(23, 107, 188);
+color negro = color(20, 23, 26);
+color Blanco = color(215, 222, 229);
+color gris = color(184, 191, 198);
+color ama = color(245, 233, 124);
+color negro2 = color(49, 49, 49);
+color fon = color(154, 179, 201);
+
+//vertices humanos
+int H1inX = 22;
+int H1inY = 400;
+
+int H1medX = 590;
+int H1medY = 200;
+
+
+void setup()
+{
+  size (800,600);
+  background(154, 179, 201);
+}
+
+void draw()
+{
+fill(azul);
+noStroke();
+
+ rect(12, PosYre15, 160, 220); 
+ rect(PosXre2, PosYre24, anchoRe24, altoRe24);
+ rect(PosXre3, PosYre3, anchoRe3, altoRe3); 
+ rect(PosXre4, PosYre24, anchoRe24, altoRe24);
+ rect(PosXre5, PosYre15, 160, 220);
+ noStroke();
+ fill(negro);
+  
+ beginShape();
+
+ vertex(12,387);
+ vertex(86,372);
+ vertex(165,348);
+ vertex(208,336);
+ vertex(243,320);
+ vertex(265,306);
+ vertex(275,306);
+ vertex(295,298);
+ vertex(329,281);
+ vertex(353,267);
+ vertex(356,270);
+ vertex(361,271);
+ vertex(367,270);
+ vertex(372,270);
+ vertex(374,262);
+ vertex(379,250);
+ vertex(384,243);
+ vertex(407,230);
+ vertex(444,215);
+ vertex(468,206); 
+ vertex(502,195);
+ vertex(533,187);
+ vertex(552,183);
+ vertex(513,190);
+ vertex(485,198);
+ vertex(452,208);
+ vertex(419,222);
+ vertex(390,234);
+ vertex(390,229);
+ vertex(396,221);
+ vertex(400,213);
+ vertex(400,201);
+ vertex(397,196);
+ vertex(395,195);
+ vertex(391,199);
+ vertex(387,207);
+ vertex(387,218);
+ vertex(387,231);
+ vertex(357,250);
+ vertex(322,266);
+ vertex(318,272);
+ vertex(299,283);
+ vertex(279,287);
+ vertex(270,287);
+ vertex(243,302);
+ vertex(211,320);
+ vertex(169,337);
+ vertex(122,354);
+ vertex(63,372);
+ vertex(12,387); 
+ 
+ 
+ 
+
+ endShape();
+ 
+ beginShape();
+ 
+ vertex(74,268);
+ vertex(157,320);
+ vertex(260,388);
+ vertex(269,396);
+ vertex(273,397);
+ vertex(279,398);
+ vertex(284,396);
+ vertex(286,393);
+ vertex(288,382);
+ vertex(287,367);
+ vertex(276,331);
+ vertex(272,319);
+ vertex(268,308); 
+ vertex(273,287);
+ vertex(271,285);
+ vertex(261,284);
+ vertex(256,283);
+ vertex(251,287);
+ vertex(247,290);
+ vertex(245,293);
+ vertex(244,300);
+ vertex(249,317);
+ vertex(263,344);
+ vertex(271,364);
+ vertex(274,377);
+ vertex(274,385);
+ vertex(261,378);
+ vertex(246,368);
+ vertex(230,359);
+ vertex(213,348);
+ vertex(181,329);
+ vertex(140,308); 
+ vertex(74,268);
+             
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ endShape();
+ 
+ beginShape();
+ 
+ vertex(380,244);
+ vertex(394,248);
+ vertex(413,250);
+ vertex(434,251);
+ vertex(446,251);
+ vertex(480,252);
+ vertex(501,252);
+ vertex(531,248);
+ vertex(554,245);
+ vertex(525,246);
+ vertex(501,249);
+ vertex(480,249);
+ vertex(422,248);
+ vertex(386,239);
+ vertex(380,244);
+ 
+ 
+ endShape();
+ 
+ beginShape();
+ vertex(774,343);
+ vertex(725,339);
+ vertex(707,337);
+ vertex(774,343);
+ vertex(692,336);
+ vertex(675,336);
+ vertex(655,340);
+ vertex(631,345);
+ vertex(602,354);
+ vertex(578,362);
+ vertex(550,372);
+ vertex(526,378);
+ vertex(502,383);
+ vertex(497,383);
+ vertex(494,380);
+ vertex(492,373);
+ vertex(502,346);
+ vertex(524,310);
+ vertex(535,294);
+ vertex(516,291);
+ vertex(496,283);
+ vertex(477,273);
+ vertex(458,263);
+ vertex(454,266);
+ vertex(448,267);
+ vertex(443,266);
+ vertex(439,265);
+ vertex(439,253);
+ vertex(433,242);
+ vertex(427,239);
+ vertex(412,232);
+ vertex(397,223);
+ vertex(382,214);
+ vertex(371,207);
+ vertex(344,196);
+ vertex(334,193);
+ vertex(320,192);
+ vertex(306,190);
+ vertex(265,188);
+ vertex(335,191);
+ vertex(361,199);
+ vertex(379,208);
+ vertex(404,223);
+ vertex(419,231);
+ vertex(428,234);
+ vertex(421,226);
+ vertex(419,224);
+ vertex(416,209);
+ vertex(419,201);
+ vertex(423,196);
+ vertex(426,195);
+ vertex(428,196);
+ vertex(429,200);
+ vertex(429,210);
+ vertex(428,219);
+ vertex(426,223);
+ vertex(427,228);
+ vertex(431,234);
+ vertex(435,236);
+ vertex(448,235);
+ vertex(462,233);
+ vertex(477,229);
+ vertex(499,219);
+ vertex(519,210);
+ vertex(538,204);
+ vertex(554,199);
+ vertex(572,196);
+ vertex(590,195);
+ vertex(569,199);
+ vertex(550,202);
+ vertex(532,208);
+ vertex(513,217);
+ vertex(495,226);
+ vertex(483,232);
+ vertex(466,236);
+ vertex(451,238);
+ vertex(443,239);
+ vertex(455,248);
+ vertex(465,254);
+ vertex(482,264);
+ vertex(503,275);
+ vertex(513,278);
+ vertex(524,279);
+ vertex(534,278);
+ vertex(546,272);
+ vertex(552,270);
+ vertex(559,270);
+ vertex(564,273);
+ vertex(567,276);
+ vertex(567,281);
+ vertex(598,280);
+ vertex(628,273);
+ vertex(665,263);
+ vertex(697,249);
+ vertex(728,230);
+ vertex(748,220);
+ vertex(764,214);
+ vertex(782,211);
+ vertex(766,215);
+ vertex(746,224);
+ vertex(724,237);
+ vertex(704,252);
+ vertex(686,263);
+ vertex(670,271);
+ vertex(652,278);
+ vertex(629,285);
+ vertex(605,289);
+ vertex(580,293);
+ vertex(559,296);
+ vertex(541,313);
+ vertex(524,333);
+ vertex(510,352);
+ vertex(504,365);
+ vertex(504,373);
+ vertex(511,374);
+ vertex(547,367);
+ vertex(584,356);
+ vertex(609,349);
+ vertex(641,340);
+ vertex(665,335);
+ vertex(685,334);
+ vertex(702,334);
+ vertex(717,336);
+ vertex(774,343);
+ endShape();
+ 
+ fill(Blanco);
+ stroke(gris);
+ strokeWeight(an);
+ 
+ ellipse(83,  252, 20,20);
+ ellipse(41,  316, 20,20);
+ ellipse(154, 298, 20,20);
+ ellipse(25,  369, 20,20);
+ ellipse(140, 379, 20,20);
+ ellipse(297, 430, 20,20);
+ ellipse(241, 414 ,20,20);
+ ellipse(390, 443, 20,20);
+ ellipse(437, 468, 20,20);
+ ellipse(433, 385, 20,20);
+ ellipse(564, 430, 20,20);
+ ellipse(513, 409, 20,20);
+ ellipse(580, 383, 20,20);
+ ellipse(753, 373, 20,20);
+ ellipse(747, 296, 20,20);
+ ellipse(703, 286, 20,20);
+ 
+ ellipse(78, 344, 15,15);
+ ellipse(113, 326, 15,15);
+ ellipse(164, 262, 15,15);
+ ellipse(212, 304, 15,15);
+ ellipse(215, 383, 15,15);
+ ellipse(298, 327, 15,15);
+ ellipse(284, 254, 15,15);
+ ellipse(235, 231, 15,15);
+ ellipse(420, 283, 15,15);
+ ellipse(380, 305, 15,15);
+ ellipse(464, 320, 15,15);
+ ellipse(412, 354, 15,15);
+ ellipse(367, 369, 15,15);
+ ellipse(425, 425, 15,15);
+ ellipse(575, 259, 15,15);
+ ellipse( 504, 311, 15,15);
+ ellipse(538, 358, 15,15);
+ ellipse(599, 420, 15,15);
+ ellipse(518, 433, 15,15);
+ ellipse(655, 242, 15,15);
+ ellipse(756, 240, 15,15);
+ ellipse(649, 314, 15,15);
+ ellipse(760, 342, 15,15);
+ ellipse(649, 362, 15,15);
+ ellipse(779, 356, 15,15);
+ 
+ fill(ama);
+ stroke(negro2);
+ strokeWeight(an2);
+ 
+ ellipse(141, 240, 10,10);
+ ellipse(84, 251, 10,10);
+ ellipse(165, 260, 10,10);
+ ellipse(47, 274, 10,10);
+ ellipse(130, 277, 10,10);
+ ellipse(153, 297, 10,10);
+ ellipse(42, 315, 10,10);
+ ellipse(113, 326, 10,10);
+ ellipse(77, 344, 10,10);
+ ellipse(53, 354, 10,10);
+ ellipse(23, 368, 10,10);
+ ellipse(93, 388, 10,10);
+ ellipse(139, 379, 10,10);
+ ellipse(233, 195, 10,10);
+ ellipse(236, 232, 10,10);
+ ellipse(268, 225, 10,10);
+ ellipse(247, 264, 10,10);
+ ellipse(283, 254, 10,10);
+ ellipse(308, 242, 10,10);
+ ellipse(212, 303, 10,10);
+ ellipse(248, 344, 10,10);
+ ellipse(214, 382, 10,10);
+ ellipse(313, 401, 10,10);
+ ellipse(241, 413, 10,10);
+ ellipse(213, 434, 10,10);
+ ellipse(296, 430, 10,10);
+ 
+ ellipse(423, 145, 10,10);
+ ellipse(381, 147, 10,10);
+ ellipse(429, 171, 10,10);
+ ellipse(451, 195, 10,10);
+ ellipse(419, 241, 10,10);
+ ellipse(404, 271, 10,10);
+ ellipse(420, 282, 10,10);
+ ellipse(380, 307, 10,10);
+ ellipse(443, 314, 10,10);
+ ellipse(411, 354, 10,10);
+ ellipse(462, 322, 10,10);
+ ellipse(423, 425, 10,10);
+ ellipse(350, 326, 10,10);
+ ellipse(385, 348, 10,10);
+ ellipse(366, 370, 10,10);
+ ellipse(433, 384, 10,10);
+ ellipse(359, 426, 10,10);
+ ellipse(389, 443, 10,10);
+ ellipse(351, 463, 10,10);
+ ellipse(437, 467, 10,10);
+ ellipse(297, 326, 10,10);
+ ellipse(552, 219, 10,10);
+ ellipse(498, 238, 10,10);
+ ellipse(545, 260, 10,10);
+ ellipse(574, 257, 10,10);
+ ellipse(499, 263, 10,10);
+ ellipse(503, 314, 10,10);
+ ellipse(587, 337, 10,10);
+ ellipse(539, 357, 10,10);
+ ellipse(580, 383, 10,10);
+ ellipse(489, 405, 10,10);
+ ellipse(513, 408, 10,10);
+ ellipse(517, 433, 10,10);
+ ellipse(564, 431, 10,10);
+ 
+ ellipse(655, 241, 10,10);
+ ellipse(703, 285, 10,10);
+ ellipse(772, 267, 10,10);
+ ellipse(747, 295, 10,10);
+ ellipse(648, 313, 10,10);
+ ellipse(703, 323, 10,10);
+ ellipse(769, 314, 10,10);
+ ellipse(650, 361, 10,10);
+ ellipse(675, 373, 10,10);
+ ellipse(705, 367, 10,10);
+ ellipse(754, 375, 10,10);
+ ellipse(780, 354, 10,10);
+ ellipse(759, 343, 10,10);
+ ellipse(756, 239, 10,10);
+ 
+ fill(fon);
+ noStroke();
+ rect(169,50,13,435);
+ rect(320,50,13,435);
+ rect(470,50,13,435);
+ rect(620,50,13,435);
+ 
+ 
+ 
+}
